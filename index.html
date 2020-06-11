@@ -538,7 +538,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 відомий кут \(\phi\) між дотичними в точках \(t_0\) та \(t_0 + \Delta S\)</p>
 </div>
 <div class="paragraph">
-<p><strong>Кривиною</strong> кривої \(\phi\) в точці \(t_0\) наз. величина:</p>
+<p><strong>Кривиною</strong> кривої \(\gamma\) в точці \(t_0\) наз. величина:</p>
 </div>
 <div class="stemblock">
 <div class="content">
@@ -554,19 +554,59 @@ k = \frac{|[r', r'']|}{|r'|^3}\]
 </div>
 <div class="sect2">
 <h3 id="_6_скрут_кривої_його_обчислення">6. Скрут кривої, його обчислення</h3>
-
+<div class="paragraph">
+<p><strong>Скрутом</strong> кривої \(\gamma\) в точці \(t_0\) наз. величина:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\kappa = \lim_{\Delta s \rightarrow 0}{\frac{\psi}{\Delta s}}\\
+\text{Яка в загальному випадку обчислюється за формулою:}\\
+\kappa = \frac{(r', r'', r''')}{|[r', r'']|^2}\]
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_7_формули_серре_френе">7. Формули Серре-Френе.</h3>
-
+<div class="paragraph">
+<p>Формули Серре-Френе мають вигляд:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\overrightarrow{\tau'} = k \overrightarrow{\nu} \\
+\overrightarrow{\nu'} = -k\overrightarrow{\tau} + \kappa  \overrightarrow{\beta}\\
+\overrightarrow{\beta'} = -\kappa \overrightarrow{\nu}\]
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_8_поняття_топологічного_простору_неперервні_відображення">8. Поняття топологічного простору, неперервні відображення</h3>
-
+<div class="paragraph">
+<p>Нехай \(X\) непорожня множина, \(\tau\) сім&#8217;я її підмножин така що</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\emptyset \in \tau,\ X \in \tau \\
+\text{Якщо } U_{\alpha} \in \tau, \ \alpha \in \mathcal{R}, \text{то} \bigcup_{\alpha}U_{\alpha} \in \tau \\
+\text{Якщо } U, V \in \tau\  \text{то } U \cap V \in \tau\]
+</div>
+</div>
+<div class="paragraph">
+<p>тоді пара \((X, \tau)\) називається <strong>топологічним простором</strong> а \(\tau\)&#8201;&#8212;&#8201;топологією</p>
+</div>
+<div class="paragraph">
+<p>Нехай задані пара \((X, \tau_1),\, (Y, \tau_2)\) та відображення між ними
+\(f: X \rightarrow Y\).
+Відображення називається <strong>неперервним в точці \(x_0 \in X\)</strong>, якщо для \(\forall \text{ околу } O(f(x_0)) \in Y\ \exists\ \text{ окіл } O(x_0) \in X\)
+такий, що \(f(O(x_0)) \subseteq O(f(x_0))\)</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_9_база_топології_побудова_топологічних_просторів">9. База топології, побудова топологічних просторів</h3>
-
+<div class="paragraph">
+<p>Незай \((X, \tau)\)&#8201;&#8212;&#8201;топологічний простір. Сім&#8217;я відкритих підмножин \(\mathcal{B}(X)\)
+називається <strong>базою топологіі</strong> якщо будь-яка відкрита підмножина з \((X, \tau)\)
+може бути подана як об&#8217;еднання деяких множин з \((X, \tau)\)</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_10_звязність_лінійна_звязність_топологічних_просторів_поняття_хаусдорфового_простору">10. Звязність, лінійна звязність топологічних просторів, поняття хаусдорфового простору</h3>
@@ -645,7 +685,7 @@ k = \frac{|[r', r'']|}{|r'|^3}\]
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-06-11 11:24:58 +0300
+Last updated 2020-06-11 12:14:32 +0300
 </div>
 </div>
 <script type="text/x-mathjax-config">
