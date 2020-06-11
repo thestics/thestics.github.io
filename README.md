@@ -1,1 +1,0 @@
-# thestics.github.io
